@@ -12,7 +12,7 @@ connectDB();
 
 app.use(cors());
 
-app.use(cors({ origin: 'https://zooco-frontend.vercel.app/' })); 
+// app.use(cors({ origin: 'https://zooco-frontend.vercel.app/' })); 
 app.use(express.json());
 
 app.use('/api/reminders', reminderRoutes);
